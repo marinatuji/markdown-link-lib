@@ -1,0 +1,27 @@
+{
+  "name": "markdown-link-lib",
+  "version": "1.0.0",
+  "description": "Esta biblioteca se destina a converter links de um arquivo md em um array de objetos contendo titulo e o link.",
+  "main": "lib/markdown-link.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.0"
+  },
+  "scripts": {
+    "test": "nyc mocha",
+    "eslint": "eslint ./lib/markdown-link.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinatuji/markdown-link-lib.git"
+  },
+  "author": "Marina Tuji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marinatuji/markdown-link-lib/issues"
+  },
+  "homepage": "https://github.com/marinatuji/markdown-link-lib#readme"
+}
