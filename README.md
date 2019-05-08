@@ -21,7 +21,7 @@ const links = [{ href: 'https://en.wiktionary.org/wiki/labore', text: 'labore' }
 
 ```shell
 > const result = require("markdown-link-lib");
-> result.cpfValidator("Texto teste sem link")
+> result.getLinksFromMd("Texto teste sem link");
 > // retorna um objeto vazio
 ```
 
